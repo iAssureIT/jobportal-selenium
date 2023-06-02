@@ -24,7 +24,12 @@ public class baseClassForAdmin {
 		case "MS Edge" :
 			driver = new EdgeDriver();
 			break;  
+<<<<<<< Updated upstream
 			        }
+=======
+			driver.get("https://qaadmin-iassureit-jobportal.iassureit.in/");
+        }
+>>>>>>> Stashed changes
 	
 		
 	}
