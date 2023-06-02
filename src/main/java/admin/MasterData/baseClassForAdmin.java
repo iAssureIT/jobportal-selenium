@@ -24,7 +24,9 @@ public class baseClassForAdmin {
 		case "MS Edge" :
 			driver = new EdgeDriver();
 			break;  
-        }
+			        }
 	
+		
 	}
+	
 }
