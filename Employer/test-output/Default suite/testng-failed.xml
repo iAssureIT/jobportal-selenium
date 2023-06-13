@@ -3,11 +3,29 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jobportal_Base.SignUp">
+      <class name="qa.Test.LoginPageTestcase">
         <methods>
-          <include name="signup"/>
+          <include name="beforeTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="sampleMethodForEnteringCredentials"/>
         </methods>
-      </class> <!-- jobportal_Base.SignUp -->
+      </class> <!-- qa.Test.LoginPageTestcase -->
+      <class name="qa.Test.EmployerDetailsTestcase">
+        <methods>
+          <include name="enteringEmployerDetails"/>
+        </methods>
+      </class> <!-- qa.Test.EmployerDetailsTestcase -->
+      <class name="qa.Test.SignupPageTestcase">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="enteringCredentialsForSifnUp"/>
+        </methods>
+      </class> <!-- qa.Test.SignupPageTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
