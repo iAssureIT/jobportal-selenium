@@ -4,7 +4,7 @@ public interface EmployerDetailsElements {
 	String Menu="//*[@id=\"root\"]/div/div/div[1]/div/div[1]/div/div[2]/div/div[4]/div";
 	
 	String Setting="//*[@id=\"barsToggel\"]/a[1]/div/span";
-	sString BasicInfo="basic-info-pillss pills";
+	String BasicInfo="basic-info-pillss pills";
 	String CompanyName="companyName";
 	String GroupName="groupName";
 	String Industry="selectIndustry";
