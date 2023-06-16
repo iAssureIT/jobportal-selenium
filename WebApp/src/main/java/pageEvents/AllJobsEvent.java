@@ -12,8 +12,8 @@ public class AllJobsEvent extends BaseTest{
 	
 	public void alljobs()
 	{
-         
- 		//element.getWebElement("XPATH",AllJobsElement.alljobs ).click();
+        element.getWebElement("XPATH",AdminAllJobsElement.jobs).click(); 
+ 		element.getWebElement("XPATH",AdminAllJobsElement.alljobs ).click();
  		element.getWebElement("XPATH",AdminAllJobsElement.addjob).click();
  		element.getWebElement("XPATH",AdminAllJobsElement.manualbutton).click();
  		

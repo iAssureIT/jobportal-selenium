@@ -2,19 +2,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="AdminTest.Test.EmployerDetailsTestcase"/>
-      <class name="AdminTest.Test.AllJobsTest"/>
-      <class name="AdminTest.Test.AdminProfileTest"/>
-      <class name="AdminTest.Test.AllSettingTest"/>
-      <class name="EmployerTest.PackageSubscriptionTestcase"/>
-      <class name="EmployerTest.PostJobTestcase"/>
-      <class name="EmployerTest.EmployerDetailsTestcase"/>
-      <class name="AdminTest.Test.PostJobTestCase"/>
-      <class name="EmployerTest.ProfileTestcase"/>
-      <class name="EmployerTest.LoginPageTestcase"/>
-      <class name="AdminTest.Test.LoginTestCase"/>
-      <class name="EmployerTest.SignupPageTestcase"/>
-    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
