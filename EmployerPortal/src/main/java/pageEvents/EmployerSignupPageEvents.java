@@ -3,7 +3,6 @@ package pageEvents;
 import org.openqa.selenium.Alert;
 
 import base.BaseTest;
-
 import pageObjects.EmployerSignupPageElements;
 import utils.EmployerElementFetch;
 
